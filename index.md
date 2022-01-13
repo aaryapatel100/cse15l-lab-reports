@@ -1,4 +1,4 @@
 Hi
 # This is the lab #
 ## Some stuff ##
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fpaint&psig=AOvVaw2AQO-At9wOH3QFXWykRU_G&ust=1642203776049000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMiNyPfzr_UCFQAAAAAdAAAAABAJ)
+![Image](https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)
