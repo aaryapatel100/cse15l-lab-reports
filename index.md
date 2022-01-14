@@ -7,4 +7,8 @@ Hi
 * Nice
 * Yessir
 
+## A Preview Screenshot
+
+![Image](./screenshot.png)
+
 To add in inline code do this `exit`
