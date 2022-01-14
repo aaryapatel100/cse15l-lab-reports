@@ -1,12 +1,12 @@
 Hello and welcome to a quick tutorial on setting up remote access! 
 ## Installing VSCode
 
-[Image](./vscodeDownload.png)
+![Image](./vscodeDownload.png)
 
 * To begin, visit the [VSCode Downloads](https://code.visualstudio.com/) page and select the version compatible with your system for installation
 * Once complete, running the application should open a window similar to the one below:
 
-[Image](./vscodeHome.png)
+![Image](./vscodeHome.png)
 
 ## Remotely Connecting
 * Visit https://sdacs.ucsd.edu/~icc/index.php to get your course-specific account
@@ -16,7 +16,7 @@ Hello and welcome to a quick tutorial on setting up remote access!
   * **Note:** If it's your first time connecting to the server, the message `Are you sure you want to continue connecting (yes/no/[fingerprint])?` will appear; type `yes` to continue
 * Once logged in, you should see a similar output on your terminal as the image below:
 
-[Image](./SSHresult.png)
+![Image](./SSHresult.png)
 
 ## Trying Some Commands
 * Here are some important commands to try out in the terminal:
@@ -28,17 +28,17 @@ Hello and welcome to a quick tutorial on setting up remote access!
   * `touch` - makes a new file in the current directory
 * Running the ls functions would look like this:
 
-[Image](./commands.png)
+![Image](./commands.png)
 
 ## Moving Files with SCP
 * Using the `scp` command, you can transfer files from your local computer to the server
   * For example `scp WhereAmI.java cs15lwi22auj@ieng6.ucsd.edu:~/.` will move the WhereAmI.java file to my home directory in the server
   * **Note:** The part directly after `scp` references the file path (make sure you are in the correct directory) and the `~/.` is the destination path
 
-[Image](./scp.png)
+![Image](./scp.png)
 * You can login to ieng6 with `ssh` and use to `ls` to see the transferred file
 
-[Image](./checkFile.png)
+![Image](./checkFile.png)
 
 ## Setting an SSH Key
 * In order to avoid being prompted for your password each time for an `scp` or `ssh` command, run `ssh-keygen`
@@ -46,13 +46,13 @@ Hello and welcome to a quick tutorial on setting up remote access!
 * Finish setup with the following commands: `ssh <ieng6 account>`, `mkdir .ssh`, `logout`, and `scp /Users/name/.ssh/id_rsa.pub <ieng6 account>:~/.ssh/authorized_keys` 
 * You should now be able to `ssh`/`scp` without a password like so:
 
-[Image](./noPassword.png)
+![Image](./noPassword.png)
 
 ## Optimizing Remote Running
 * To work faster while connecting remotely, you can add commands in quotes at the end of your ssh command to run them directly on the server
 
-[Image](./optimization1.png)
+![Image](./optimization1.png)
 
 * **Note**: You can separate these two steps by connecting to the server and then running the code segment between the quotes on a single line like so:
 
-[Image](./optimization2.png)
+![Image](./optimization2.png)
