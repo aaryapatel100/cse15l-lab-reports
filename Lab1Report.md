@@ -1,5 +1,4 @@
 Hello and welcome to a quick tutorial on setting up remote access! 
-
 ## Installing VSCode
 
 [Image](./vscodeDownload.png)
