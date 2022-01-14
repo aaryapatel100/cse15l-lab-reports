@@ -7,4 +7,4 @@ Hi
 * Nice
 * Yessir
 
-To highlight words do this 'exit'
+To add in inline code do this `exit`
