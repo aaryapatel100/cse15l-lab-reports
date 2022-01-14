@@ -6,3 +6,5 @@ Hi
 * Woah
 * Nice
 * Yessir
+
+To highlight words do this 'exit'
