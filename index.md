@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css" />
+
 Hi
 # This is the lab #
 ## Some stuff ##
