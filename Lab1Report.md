@@ -49,10 +49,8 @@ Hello and welcome to a quick tutorial on setting up remote access!
 ![Image](./noPassword.png)
 
 ## Optimizing Remote Running
-* To work faster while connecting remotely, you can add commands in quotes at the end of your ssh command to run them directly on the server
+* To work faster while connecting remotely, you can add commands in quotes at the end of your ssh command to run them directly on the server after using `scp` to transfer your local edits
 
-![Image](./optimization1.png)
+![Image](./FasterProcess.png)
 
-* **Note**: You can separate these two steps by connecting to the server and then running the code segment between the quotes on a single line like so:
-
-![Image](./optimization2.png)
+* **Note**: While this process only saves 5 keystrokes (116 v. 121), there is about 7 seconds saved in each run. This could easily amount to more than 10 minutes when considering how many times a file would be ran for testing while working on a lab.
