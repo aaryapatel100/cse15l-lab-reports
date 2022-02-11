@@ -4,3 +4,5 @@
 [Week 2 Lab Report](https://aaryapatel100.github.io/cse15l-lab-reports/week2/Lab1Report.html)
 
 [Week 4 Lab Report](https://aaryapatel100.github.io/cse15l-lab-reports/week4/Week4Report.html)
+
+[Week 6 Lab Report](https://aaryapatel100.github.io/cse15l-lab-reports/week6/Week6Report.html)
