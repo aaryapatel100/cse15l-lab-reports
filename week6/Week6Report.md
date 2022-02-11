@@ -8,4 +8,5 @@
 
 ![Github Commit](./scpWithAlias.png)
 * In order to use `scp`, the path with the user and hostname in the original is simply
-replaced with the new nickname given to the server.
+replaced with the new nickname given to the server. In total, for all steps `ieng6` simply replaces
+`cse15lwi22auj@ieng6.ucsd.edu`.
